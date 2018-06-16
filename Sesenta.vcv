@@ -222,7 +222,7 @@
         }
       ],
       "data": {
-        "lissajous": 0,
+        "lissajous": 1,
         "external": 0
       },
       "width": 255.0
@@ -399,7 +399,7 @@
       ],
       "data": {
         "as_FxBypass": [
-          false
+          true
         ]
       }
     },
@@ -431,7 +431,7 @@
       ],
       "data": {
         "as_FxBypass": [
-          false
+          true
         ]
       }
     },
@@ -824,20 +824,20 @@
         "gates": [
           1,
           1,
+          0,
+          1,
           1,
           0,
           0,
           0,
           1,
+          0,
+          0,
           1,
           1,
           0,
           1,
-          1,
-          1,
-          0,
-          1,
-          0
+          1
         ],
         "gateMode": 0
       }
