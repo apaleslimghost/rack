@@ -7,19 +7,6 @@
   "sampleRate": 44100.0,
   "lastPath": "",
   "moduleBrowser": {
-    "favorites": [
-      {
-        "plugin": "cf",
-        "model": "METRO"
-      },
-      {
-        "plugin": "JW-Modules",
-        "model": "GridSeq"
-      },
-      {
-        "plugin": "AS",
-        "model": "Mixer8ch"
-      }
-    ]
+    "favorites": []
   }
 }
