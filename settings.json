@@ -1,0 +1,25 @@
+{
+  "token": "uy6UpKOG47OoA/EXOmpE",
+  "wireOpacity": 50.0,
+  "wireTension": 0.698999286,
+  "zoom": 0.879999995,
+  "allowCursorLock": true,
+  "sampleRate": 44100.0,
+  "lastPath": "",
+  "moduleBrowser": {
+    "favorites": [
+      {
+        "plugin": "cf",
+        "model": "METRO"
+      },
+      {
+        "plugin": "JW-Modules",
+        "model": "GridSeq"
+      },
+      {
+        "plugin": "AS",
+        "model": "Mixer8ch"
+      }
+    ]
+  }
+}
