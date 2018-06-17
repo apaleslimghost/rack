@@ -5,12 +5,12 @@
   "zoom": 0.879999995,
   "allowCursorLock": true,
   "sampleRate": 44100.0,
-  "lastPath": "",
+  "lastPath": "/Users/matthew.brennan/Documents/Rack/patches/Skied.vcv",
   "moduleBrowser": {
     "favorites": [
       {
-        "plugin": "cf",
-        "model": "METRO"
+        "plugin": "JW-Modules",
+        "model": "SimpleClock"
       },
       {
         "plugin": "JW-Modules",
