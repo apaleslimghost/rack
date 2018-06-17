@@ -753,7 +753,7 @@
       "params": [
         {
           "paramId": 2,
-          "value": -1.0
+          "value": -1.50400043
         },
         {
           "paramId": 0,
@@ -765,7 +765,7 @@
         },
         {
           "paramId": 5,
-          "value": -1.0
+          "value": -2.78500032
         },
         {
           "paramId": 3,
@@ -777,7 +777,7 @@
         },
         {
           "paramId": 8,
-          "value": -1.0
+          "value": -1.75599992
         },
         {
           "paramId": 6,
@@ -800,7 +800,7 @@
       "params": [
         {
           "paramId": 2,
-          "value": -1.0
+          "value": -4.65399933
         },
         {
           "paramId": 0,
@@ -812,7 +812,7 @@
         },
         {
           "paramId": 5,
-          "value": -1.0
+          "value": -2.78500009
         },
         {
           "paramId": 3,
@@ -824,7 +824,7 @@
         },
         {
           "paramId": 8,
-          "value": -1.0
+          "value": -5.82999945
         },
         {
           "paramId": 6,
@@ -1439,6 +1439,30 @@
       "outputId": 1,
       "inputModuleId": 5,
       "inputId": 4
+    },
+    {
+      "color": {
+        "r": 0.788235366,
+        "g": 0.717647076,
+        "b": 0.054901965,
+        "a": 1.0
+      },
+      "outputModuleId": 14,
+      "outputId": 7,
+      "inputModuleId": 2,
+      "inputId": 9
+    },
+    {
+      "color": {
+        "r": 0.0470588282,
+        "g": 0.556862772,
+        "b": 0.0823529437,
+        "a": 1.0
+      },
+      "outputModuleId": 12,
+      "outputId": 9,
+      "inputModuleId": 17,
+      "inputId": 2
     }
   ]
 }
