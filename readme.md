@@ -1,4 +1,4 @@
-# patches
+# rack
 
 [vcv rack](https://vcvrack.com/) patches i have made.
 
