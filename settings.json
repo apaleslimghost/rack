@@ -1,16 +1,24 @@
 {
   "token": "uy6UpKOG47OoA/EXOmpE",
+  "windowSize": [
+    1680.0,
+    1050.0
+  ],
+  "windowPos": [
+    0.0,
+    0.0
+  ],
   "wireOpacity": 50.0,
   "wireTension": 0.698999286,
   "zoom": 0.879999995,
   "allowCursorLock": true,
   "sampleRate": 44100.0,
-  "lastPath": "/Users/matthew.brennan/Documents/Rack/patches/Skied.vcv",
+  "lastPath": "",
   "moduleBrowser": {
     "favorites": [
       {
-        "plugin": "JW-Modules",
-        "model": "SimpleClock"
+        "plugin": "cf",
+        "model": "METRO"
       },
       {
         "plugin": "JW-Modules",

@@ -6,7 +6,7 @@
       "version": "0.6.0",
       "model": "AudioInterface",
       "pos": [
-        0,
+        121,
         0
       ],
       "params": [],
@@ -26,7 +26,7 @@
       "version": "0.6.1",
       "model": "FullScope",
       "pos": [
-        10,
+        104,
         0
       ],
       "params": [
@@ -66,7 +66,7 @@
       "version": "0.6.8",
       "model": "Mixer8ch",
       "pos": [
-        27,
+        78,
         0
       ],
       "params": [
@@ -187,6 +187,36 @@
           0,
           0
         ]
+      }
+    },
+    {
+      "plugin": "cf",
+      "version": "0.6.0",
+      "model": "METRO",
+      "pos": [
+        0,
+        0
+      ],
+      "params": [
+        {
+          "paramId": 0,
+          "value": 120.099998
+        },
+        {
+          "paramId": 3,
+          "value": 0.0
+        },
+        {
+          "paramId": 1,
+          "value": 0.0
+        },
+        {
+          "paramId": 2,
+          "value": 0.0
+        }
+      ],
+      "data": {
+        "onstate": 0
       }
     }
   ],
