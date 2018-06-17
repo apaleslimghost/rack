@@ -285,7 +285,7 @@
         "chaosKnobMode": 0,
         "runMode": 0,
         "panelStyle": 1,
-        "running": 1
+        "running": 0
       }
     },
     {
@@ -399,7 +399,7 @@
       ],
       "data": {
         "as_FxBypass": [
-          true
+          false
         ]
       }
     },
@@ -790,19 +790,19 @@
         "running": true,
         "ignoreGateOnPitchOut": false,
         "gates": [
-          1,
-          0,
-          0,
           0,
           1,
           0,
           1,
           0,
+          0,
+          0,
           1,
           0,
-          0,
-          0,
-          0,
+          1,
+          1,
+          1,
+          1,
           0,
           1,
           1
