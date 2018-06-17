@@ -2,7 +2,7 @@
 
 [vcv rack](https://vcvrack.com/) patches i have made.
 
-all the modules used are free and available on the vcv plugins page. idk how rack handles opening a patch with modules it doesn't know about tho
+all the modules used are free and available on the vcv plugins page. loading the patches without my [collection of plugins](/plugins) won't work, so put those in your `~/Documents/Rack/plugins` first (better yet, clone this repo to `~/Documents/Rack`)
 
 ## licence
 
