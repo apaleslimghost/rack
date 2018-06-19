@@ -285,7 +285,7 @@
         "chaosKnobMode": 0,
         "runMode": 0,
         "panelStyle": 1,
-        "running": 0
+        "running": 1
       }
     },
     {
@@ -399,7 +399,7 @@
       ],
       "data": {
         "as_FxBypass": [
-          false
+          true
         ]
       }
     },
@@ -792,20 +792,20 @@
         "gates": [
           0,
           1,
-          0,
+          1,
           1,
           0,
-          0,
-          0,
-          1,
-          0,
-          1,
           1,
           1,
           1,
           0,
           1,
-          1
+          1,
+          0,
+          1,
+          1,
+          0,
+          0
         ],
         "gateMode": 0
       }
@@ -897,14 +897,78 @@
       ]
     },
     {
-      "plugin": "SynthKit",
-      "version": "0.6.0",
-      "model": "Clock Divider",
+      "plugin": "AS",
+      "version": "0.6.8",
+      "model": "TriLFO",
+      "pos": [
+        105,
+        1
+      ],
+      "params": [
+        {
+          "paramId": 2,
+          "value": -8.0
+        },
+        {
+          "paramId": 0,
+          "value": 1.0
+        },
+        {
+          "paramId": 1,
+          "value": 1.0
+        },
+        {
+          "paramId": 5,
+          "value": -7.15300179
+        },
+        {
+          "paramId": 3,
+          "value": 1.0
+        },
+        {
+          "paramId": 4,
+          "value": 0.0
+        },
+        {
+          "paramId": 8,
+          "value": -7.61499262
+        },
+        {
+          "paramId": 6,
+          "value": 1.0
+        },
+        {
+          "paramId": 7,
+          "value": 1.0
+        }
+      ]
+    },
+    {
+      "plugin": "AS",
+      "version": "0.6.8",
+      "model": "AtNuVrTr",
       "pos": [
         100,
         1
       ],
-      "params": []
+      "params": [
+        {
+          "paramId": 0,
+          "value": 0.279000014
+        },
+        {
+          "paramId": 1,
+          "value": 0.0
+        },
+        {
+          "paramId": 2,
+          "value": 0.222000003
+        },
+        {
+          "paramId": 3,
+          "value": 0.0
+        }
+      ]
     }
   ],
   "wires": [
@@ -1462,15 +1526,39 @@
     },
     {
       "color": {
+        "r": 0.788235366,
+        "g": 0.717647076,
+        "b": 0.054901965,
+        "a": 1.0
+      },
+      "outputModuleId": 17,
+      "outputId": 1,
+      "inputModuleId": 18,
+      "inputId": 4
+    },
+    {
+      "color": {
+        "r": 0.788235366,
+        "g": 0.0941176564,
+        "b": 0.278431386,
+        "a": 1.0
+      },
+      "outputModuleId": 17,
+      "outputId": 5,
+      "inputModuleId": 18,
+      "inputId": 5
+    },
+    {
+      "color": {
         "r": 0.0470588282,
         "g": 0.556862772,
         "b": 0.0823529437,
         "a": 1.0
       },
-      "outputModuleId": 7,
-      "outputId": 4,
-      "inputModuleId": 17,
-      "inputId": 0
+      "outputModuleId": 18,
+      "outputId": 0,
+      "inputModuleId": 5,
+      "inputId": 5
     },
     {
       "color": {
@@ -1479,10 +1567,22 @@
         "b": 0.678431392,
         "a": 1.0
       },
-      "outputModuleId": 17,
-      "outputId": 4,
+      "outputModuleId": 18,
+      "outputId": 1,
       "inputModuleId": 5,
-      "inputId": 9
+      "inputId": 6
+    },
+    {
+      "color": {
+        "r": 0.788235366,
+        "g": 0.0941176564,
+        "b": 0.278431386,
+        "a": 1.0
+      },
+      "outputModuleId": 17,
+      "outputId": 8,
+      "inputModuleId": 10,
+      "inputId": 11
     }
   ]
 }
