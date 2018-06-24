@@ -221,7 +221,7 @@
     },
     {
       "plugin": "VultModulesFree",
-      "version": "0.6.5",
+      "version": "0.6.6",
       "model": "Vessek",
       "pos": [
         43,
@@ -643,7 +643,7 @@
     },
     {
       "plugin": "Bogaudio",
-      "version": "0.6.6",
+      "version": "0.6.7",
       "model": "Bogaudio-SampleHold",
       "pos": [
         34,
