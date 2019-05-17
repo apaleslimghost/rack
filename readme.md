@@ -1,4 +1,4 @@
-# [![screenshot of sesenta.vcv loaded in rack](https://user-images.githubusercontent.com/631757/41501369-0eba16ac-719b-11e8-970a-dacd669b6cf2.png)](/patches/Sesenta.vcv)
+# [![screenshot of Roboticism.vcv loaded in rack](https://user-images.githubusercontent.com/631757/57920707-93ff0480-7893-11e9-8f1b-ee0805408fb3.png)](/patches/Roboticism.vcv)
 
 [vcv rack](https://vcvrack.com/) patches i have made.
 
