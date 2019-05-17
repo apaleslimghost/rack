@@ -36,7 +36,11 @@ one which is the original, and the second which is modified by a musical amount,
 like a minor 3rd. It spans plus or minus one octave, and is controlled by toggles.
 
 The toggles are additive. So if you want a fourth, choose a major third and a half step 
-both. You get the idea. 
+both.
+
+With release v0.6.4 each of the toggles is controllable by CV. To avoid sudden clicks and
+pops when the voltage changes rapidly, HarMoNee also provides a smooth transition between
+values at a rate set by the Gliss knob.
 
 <a href="https://baconpaul.github.io/audio/HarMoNee.mp3">
 <img src="docs/HarMoNee.png" alt="ExampleQuanteyes Patch">
@@ -74,6 +78,9 @@ certain notes to allow you to pick scales to which you quantize.
 
 Since quantizing to scales could be useful for multiple things driving oscillators, 
 you can apply this quantization to up to 3 inputs using the same scale.
+
+If you would like some scale presets, the right mouse button will set to a few scales.
+If you want to add more pre-canned scales it's easy for me to do. Just open a github issue.
 
 Finally, you can choose where the "root" note is in CV space. The default is that
 1 volt is the "R" note, but if you set root to 3, then 1 3/12 volts would be R. If you don't
@@ -202,8 +209,10 @@ which always produce output and are then fed into envelopes and stuff, the Karpl
 triggered with a gate signal to produce any sound. When it is triggered it will snap all the parameters set on
 the front panel and play that voice until it fades. The system is configured to play upto 32 voices and will
 voice steal beyond that. But since Rack adds a 1 sample delay to all its signals as they go through each module,
-if you trigger from SEQ-3 and use a frequency you have modified, the trigger will "beat" the modified signal.
-So adding a few sample delay to your trigger may be approrpriate. There's a really simple SampleDelay module
+if you trigger from SEQ-3 and use a frequency you have modified, the trigger will arrive several samples before the modified 
+frequency or filter signal.
+Adding a few sample delay to your trigger may be approrpriate so that your other parameter control signals quiesce through
+the Rack network. There's a really simple SampleDelay module
 which ships with this plugin set if you want to do that.
 
 I've only implemented one filter so far, so the only control which does anything in the filter space is the "A" 

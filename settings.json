@@ -1,12 +1,14 @@
 {
   "token": "uy6UpKOG47OoA/EXOmpE",
   "wireOpacity": 50.0,
-  "wireTension": 0.697000623,
+  "wireTension": 0.860000014,
   "zoom": 0.879999995,
   "allowCursorLock": true,
   "sampleRate": 44100.0,
-  "lastPath": "/Users/matthew.brennan/Documents/Rack/patches/Sedna.vcv",
+  "lastPath": "/Users/bren.brightwell/Documents/Rack/patches/Receive.vcv",
   "moduleBrowser": {
     "favorites": []
-  }
+  },
+  "powerMeter": false,
+  "checkVersion": true
 }

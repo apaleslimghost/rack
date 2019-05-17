@@ -1,14 +1,10 @@
 {
-  "version": "0.6.0",
+  "version": "0.6.2c",
   "modules": [
     {
       "plugin": "Core",
-      "version": "0.6.0",
+      "version": "0.6.2c",
       "model": "AudioInterface",
-      "pos": [
-        0,
-        2
-      ],
       "params": [],
       "data": {
         "audio": {
@@ -19,16 +15,16 @@
           "sampleRate": 44100,
           "blockSize": 256
         }
-      }
+      },
+      "pos": [
+        91,
+        0
+      ]
     },
     {
       "plugin": "JW-Modules",
-      "version": "0.6.1",
+      "version": "0.6.3",
       "model": "FullScope",
-      "pos": [
-        10,
-        2
-      ],
       "params": [
         {
           "paramId": 1,
@@ -59,44 +55,25 @@
         "lissajous": 1,
         "external": 0
       },
-      "width": 345.0
+      "width": 345.0,
+      "height": 380.0,
+      "pos": [
+        101,
+        0
+      ]
     },
     {
-      "plugin": "Bogaudio",
-      "version": "0.6.7",
-      "model": "Bogaudio-Mix4",
-      "pos": [
-        0,
-        1
-      ],
+      "plugin": "AS",
+      "version": "0.6.13",
+      "model": "Mixer4ch",
       "params": [
-        {
-          "paramId": 0,
-          "value": 0.909090936
-        },
-        {
-          "paramId": 1,
-          "value": 0.0
-        },
-        {
-          "paramId": 2,
-          "value": 0.0
-        },
-        {
-          "paramId": 3,
-          "value": 0.909090936
-        },
-        {
-          "paramId": 4,
-          "value": 0.0
-        },
         {
           "paramId": 5,
           "value": 0.0
         },
         {
           "paramId": 6,
-          "value": 0.909090936
+          "value": 0.0
         },
         {
           "paramId": 7,
@@ -107,8 +84,24 @@
           "value": 0.0
         },
         {
+          "paramId": 1,
+          "value": 0.800000012
+        },
+        {
+          "paramId": 2,
+          "value": 0.800000012
+        },
+        {
+          "paramId": 3,
+          "value": 0.800000012
+        },
+        {
+          "paramId": 4,
+          "value": 0.800000012
+        },
+        {
           "paramId": 9,
-          "value": 0.909090936
+          "value": 0.0
         },
         {
           "paramId": 10,
@@ -120,55 +113,71 @@
         },
         {
           "paramId": 12,
-          "value": 0.909090936
+          "value": 0.0
+        },
+        {
+          "paramId": 0,
+          "value": 0.800000012
+        },
+        {
+          "paramId": 13,
+          "value": 0.0
         }
+      ],
+      "data": {
+        "as_Mixer4Mutes": [
+          0,
+          0,
+          0,
+          0,
+          0
+        ]
+      },
+      "pos": [
+        75,
+        0
+      ]
+    },
+    {
+      "plugin": "squinkylabs-plug1",
+      "version": "0.6.14",
+      "model": "squinkylabs-booster",
+      "params": [
+        {
+          "paramId": 0,
+          "value": 2.0
+        }
+      ],
+      "pos": [
+        124,
+        0
       ]
     }
   ],
   "wires": [
     {
-      "color": {
-        "r": 0.0352941193,
-        "g": 0.525490224,
-        "b": 0.678431392,
-        "a": 1.0
-      },
+      "color": "#c91847",
       "outputModuleId": 2,
       "outputId": 0,
       "inputModuleId": 0,
       "inputId": 0
     },
     {
-      "color": {
-        "r": 0.788235366,
-        "g": 0.717647076,
-        "b": 0.054901965,
-        "a": 1.0
-      },
+      "color": "#0c8e15",
       "outputModuleId": 2,
       "outputId": 1,
       "inputModuleId": 0,
       "inputId": 1
     },
     {
-      "color": {
-        "r": 0.788235366,
-        "g": 0.0941176564,
-        "b": 0.278431386,
-        "a": 1.0
-      },
+      "color": "#0986ad",
       "outputModuleId": 2,
       "outputId": 0,
       "inputModuleId": 1,
       "inputId": 0
     },
     {
-      "color": {
-        "r": 0.0470588282,
-        "g": 0.556862772,
-        "b": 0.0823529437,
-        "a": 1.0
-      },
+      "color": "#c9b70e",
       "outputModuleId": 2,
       "outputId": 1,
       "inputModuleId": 1,

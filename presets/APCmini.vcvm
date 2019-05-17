@@ -1,0 +1,31 @@
+{
+  "plugin": "Core",
+  "version": "0.6.2c",
+  "model": "MIDICCToCVInterface",
+  "params": [],
+  "data": {
+    "ccs": [
+      48,
+      49,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      8,
+      9,
+      10,
+      56,
+      12,
+      13,
+      14,
+      15
+    ],
+    "midi": {
+      "driver": 1,
+      "deviceName": "APC MINI",
+      "channel": -1
+    }
+  }
+}
